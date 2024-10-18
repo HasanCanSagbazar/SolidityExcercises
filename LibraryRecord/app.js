@@ -1,6 +1,6 @@
 import { ethers } from "https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.min.js";
 
-const contractAddress = '0xb5465ED8EcD4F79dD4BE10A7C8e7a50664e5eeEB';
+const contractAddress = '';
 const abi = [
 	{
 		"inputs": [
