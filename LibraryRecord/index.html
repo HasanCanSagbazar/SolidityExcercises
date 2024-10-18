@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Record</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Library Record</h1>
+
+  <div>
+    <h3>Add a New Book</h3>
+    <input type="text" id="author" placeholder="Author Name">
+    <input type="text" id="title" placeholder="Book Title">
+    <button id="addBookButton">Add Book</button>
+  </div>
+
+  <div>
+    <h3>Borrow a Book</h3>
+    <input type="text" id="bookIdBorrow" placeholder="Book ID">
+    <input type="text" id="borrower" placeholder="Borrower Address">
+    <button id="borrowBookButton">Borrow Book</button>
+  </div>
+
+  <div>
+    <h3>Return a Book</h3>
+    <input type="text" id="bookIdReturn" placeholder="Book ID">
+    <button id="returnBookButton">Return Book</button>
+  </div>
+
+  <div>
+    <h3>Search for a Book</h3>
+    <input type="number" id="bookIdSearch" placeholder="Enter Book ID">
+    <button id="searchBookButton">Search Book</button>
+    <div id="searchResults"></div>
+  </div>
+
+  <script  type="module" src="./app.js" defer></script>
+</body>
+</html>
